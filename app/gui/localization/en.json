@@ -1,0 +1,14 @@
+{
+  "select_file": "Select File",
+  "source": "Source:",
+  "vocal": "Vocal",
+  "saxophone": "Saxophone",
+  "key": "Key:",
+  "concert": "Concert",
+  "eb": "Eb (Alto Sax)",
+  "bb": "Bb (Tenor Sax)",
+  "process": "Process",
+  "file_selected": "File selected:",
+  "error_no_file": "Please select a file first.",
+  "processing_success": "Processing completed successfully!"
+}

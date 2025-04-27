@@ -1,0 +1,14 @@
+{
+  "select_file": "Sélectionner un fichier",
+  "source_label": "Source:",
+  "vocal": "Voix",
+  "saxophone": "Saxophone",
+  "key_label": "Tonalité:",
+  "concert": "Concert",
+  "eb": "Eb (Saxophone alto)",
+  "bb": "Bb (Saxophone ténor)",
+  "process": "Traiter",
+  "file_selected": "Fichier sélectionné:",
+  "error_no_file": "Veuillez d'abord sélectionner un fichier.",
+  "processing_successful": "Fichier traité avec succès!"
+}
