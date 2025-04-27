@@ -50,23 +50,32 @@ class MainWindow:
 
     def refresh_labels(self):
         """Обновить текст всех элементов в окне после смены языка"""
+        # Обновляем метки
+        self.language_label.config(text=self.localizer.t("language"))
         self.file_button.config(text=self.localizer.t("select_file"))
         self.source_label.config(text=self.localizer.t("source_label"))
-
-        self.source_option["menu"].delete(0, "end")
-        for option in [self.localizer.t("vocal"), self.localizer.t("saxophone")]:
-            self.source_option["menu"].add_command(
-                label=option, command=lambda value=option: self.source_var.set(value)
-            )
-
         self.key_label.config(text=self.localizer.t("key_label"))
-        self.key_option["menu"].delete(0, "end")
-        for option in [self.localizer.t("concert"), self.localizer.t("eb"), self.localizer.t("bb")]:
-            self.key_option["menu"].add_command(
-                label=option, command=lambda value=option: self.key_var.set(value)
+        self.process_button.config(text=self.localizer.t("process"))
+
+        # Обновляем выпадающие списки
+        self.source_option["menu"].delete(0, "end")
+        for key in ["vocal", "saxophone"]:
+            translated = self.localizer.t(key)
+            self.source_option["menu"].add_command(
+                label=translated, command=lambda value=key: self.source_var.set(value)
             )
 
-        self.process_button.config(text=self.localizer.t("process"))
+        self.key_option["menu"].delete(0, "end")
+        for key in ["concert", "eb", "bb"]:
+            translated = self.localizer.t(key)
+            self.key_option["menu"].add_command(
+                label=translated, command=lambda value=key: self.key_var.set(value)
+            )
+
+        # Сохраняем текущие внутренние значения (ключи),
+        # но показываем их переведённые значения
+        self.source_var.set(self.localizer.t(self.source_var.get()))
+        self.key_var.set(self.localizer.t(self.key_var.get()))
 
     def select_file(self):
         file_path = filedialog.askopenfilename(filetypes=[("Audio Files", "*.mp3 *.wav")])
