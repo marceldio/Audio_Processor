@@ -1,5 +1,5 @@
 {
-  "language": "Lingua",
+  "language_label": "Lingua:",
   "select_file": "Seleziona file",
   "source_label": "Sorgente:",
   "vocal": "Voce",
@@ -11,5 +11,11 @@
   "process": "Elabora",
   "file_selected": "File selezionato:",
   "error_no_file": "Seleziona prima un file.",
-  "processing_successful": "File elaborato con successo!"
+  "processing_successful": "File elaborato con successo!",
+  "success_title": "Successo",
+  "success_message": "Il file è stato elaborato con successo.\nChiudere l'applicazione?",
+  "error_title": "Errore",
+  "detected_key": "Key",
+  "detected_tempo": "Tempo"
+
 }

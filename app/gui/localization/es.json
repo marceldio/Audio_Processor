@@ -1,5 +1,5 @@
 {
-  "language": "Idioma",
+  "language_label": "Idioma:",
   "select_file": "Seleccionar archivo",
   "source_label": "Fuente:",
   "vocal": "Voz",
@@ -11,5 +11,11 @@
   "process": "Procesar",
   "file_selected": "Archivo seleccionado:",
   "error_no_file": "Primero seleccione un archivo.",
-  "processing_successful": "¡Archivo procesado exitosamente!"
+  "processing_successful": "¡Archivo procesado exitosamente!",
+  "success_title": "Éxito",
+  "success_message": "El archivo se ha procesado correctamente.\n¿Cerrar la aplicación?",
+  "error_title": "Error",
+  "detected_key": "Tonalidad",
+  "detected_tempo": "Tempo"
+
 }

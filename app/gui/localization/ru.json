@@ -1,15 +1,21 @@
 {
-  "language": "Язык",
+  "language_label": "Язык:",
   "select_file": "Выбрать файл",
-  "source": "Источник:",
+  "source_label": "Источник:",
   "vocal": "Вокал",
   "saxophone": "Саксофон",
-  "key": "Тональность:",
+  "key_label": "Тональность:",
   "concert": "Концертная",
   "eb": "Eb (Альт-саксофон)",
   "bb": "Bb (Тенор-саксофон)",
   "process": "Обработать",
   "file_selected": "Выбран файл:",
   "error_no_file": "Пожалуйста, сначала выберите файл.",
-  "processing_success": "Обработка завершена успешно!"
+  "processing_success": "Обработка завершена успешно!",
+  "success_title": "Успех",
+  "success_message": "Файл обработан успешно.\nЗакрыть программу?",
+  "error_title": "Ошибка",
+  "detected_key": "Тональность",
+  "detected_tempo": "Темп"
+
 }

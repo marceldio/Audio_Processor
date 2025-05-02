@@ -1,15 +1,21 @@
 {
-  "language": "Language",
+  "language_label": "Language:",
   "select_file": "Select File",
-  "source": "Source:",
+  "source_label": "Source:",
   "vocal": "Vocal",
   "saxophone": "Saxophone",
-  "key": "Key:",
+  "key_label": "Key:",
   "concert": "Concert",
   "eb": "Eb (Alto Sax)",
   "bb": "Bb (Tenor Sax)",
   "process": "Process",
   "file_selected": "File selected:",
   "error_no_file": "Please select a file first.",
-  "processing_success": "Processing completed successfully!"
+  "processing_success": "Processing completed successfully!",
+  "success_title": "Success",
+  "success_message": "The file was processed successfully.\nClose the application?",
+  "error_title": "Error",
+  "detected_key": "Key",
+  "detected_tempo": "Tempo"
+
 }

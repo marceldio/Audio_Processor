@@ -1,5 +1,5 @@
 {
-  "language": "Sprache",
+  "language_label": "Sprache:",
   "select_file": "Datei auswählen",
   "source_label": "Quelle:",
   "vocal": "Gesang",
@@ -11,5 +11,11 @@
   "process": "Verarbeiten",
   "file_selected": "Datei ausgewählt:",
   "error_no_file": "Bitte wählen Sie zuerst eine Datei aus.",
-  "processing_successful": "Datei erfolgreich verarbeitet!"
+  "processing_successful": "Datei erfolgreich verarbeitet!",
+  "success_title": "Erfolg",
+  "success_message": "Die Datei wurde erfolgreich verarbeitet.\nAnwendung schließen?",
+  "error_title": "Fehler",
+  "detected_key": "Key",
+  "detected_tempo": "Tempo"
+
 }
